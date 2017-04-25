@@ -113,13 +113,15 @@
             <version>${version.wildfly.core}</version>
             <scope>provided</scope>
         </dependency>
+         -->
         <dependency>
             <groupId>org.wildfly.core</groupId>
             <artifactId>wildfly-subsystem-test</artifactId>
             <version>${version.wildfly.core}</version>
+            <type>pom</type>
             <scope>test</scope>
         </dependency>
-        -->
+       
 
         <!-- WildFly modules  -->
         <!--
